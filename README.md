@@ -34,6 +34,7 @@ midich [опции]
 |--------------------|-----------------------------------|--------------|
 | `--guided`         | Показ пошаговой визуализации      | `False`      |
 | `--sleep`          | Задержка между шагами (в секундах)| `0.1`        |
+| `--add-color`      | Цвет новой карты                  | `green`      |
 | `--diamond-color`  | Цвет масти ♦                      | `red`        |
 | `--hearts-color`   | Цвет масти ♥                      | `red`        |
 | `--clubs-color`    | Цвет масти ♣                      | `white`      |
@@ -41,7 +42,7 @@ midich [опции]
 
 Пример:
 ```bash
-midich --guided --sleep 0.2 --diamond-color cyan --spades-color blue
+midich --guided --sleep 0.2 --add-color yellow --diamond-color cyan --spades-color blue
 ```
 
 ---
@@ -50,7 +51,6 @@ midich --guided --sleep 0.2 --diamond-color cyan --spades-color blue
 
 - Генерация аналитики расклада с помощью лёгкой языковой модели (например, GPT-2)
 - Возможность загрузки собственной колоды
-- Интерфейс (возможно, на Tkinter или Web)
 
 ---
 
