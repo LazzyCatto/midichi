@@ -9,13 +9,13 @@
 Установите напрямую из PyPI:
 
 ```bash
-pip install midich
+pip install cat-midich
 ```
 
 Или локально из исходников:
 
 ```bash
-git clone https://github.com/yourusername/midich.git
+git clone https://github.com/LazzyCatto/midichi
 cd midich
 pip install .
 ```
