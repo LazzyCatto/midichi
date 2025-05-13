@@ -1,5 +1,5 @@
 from enum import Enum
-from .exceptions import InvalidCardValue
+from .exceptions import InvalidCardValue, EmptyDeckAccess
 import itertools
 import random
 
@@ -105,6 +105,8 @@ class Deck:
         return str(self)
     
     def pop(self) -> Card:
+        if len(self.cards) == 0:
+            raise EmptyDeckAccess()
         return self.cards.pop()
     
     def __bool__(self) -> bool:

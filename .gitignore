@@ -1,6 +1,13 @@
+cat-midich/
+test/
+data/
+logs/
+models/
+
 dist/
 build/
 *.egg-info/
+
 __pycache__/
 *.pyc
 *.pyo
